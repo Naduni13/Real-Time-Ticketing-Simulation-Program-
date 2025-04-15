@@ -1,0 +1,109 @@
+/* App.css */
+.app-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #f6f8fb; /* Light pastel blue background */
+  padding: 20px;
+  display: flex;
+  width: 100;
+  justify-content: center; /* Centers content horizontally */
+  align-items: flex-start; /* Aligns content at the top */
+  min-height: 100vh; /* Ensure full viewport height */
+  flex-direction: column; /* Stack header and content */
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%; /* Ensure full width */
+}
+
+
+header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e0e5ec;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #5a5a5a;
+  margin-top: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%; /* Full width of the container */
+  max-width: 1000px; /* Limit maximum width */
+  margin-top: 20px;
+}
+
+.left-panel, .right-panel {
+  background-color: #ffffff; /* White background for panels */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 60%; /* Half of the container width */
+}
+
+.left-panel {
+  background-color: #fff9f0; /* Soft pastel peach for the left panel */
+}
+
+.right-panel {
+
+  background-color: #f0f9ff; /* Soft pastel light blue for the right panel */
+}
+
+button {
+  background-color: #89c6e2; /* Pastel blue */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.1em;
+  width: 100%;
+}
+
+button:disabled {
+  background-color: #c3d8e5; /* Light grayish blue for disabled */
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #78b1cd; /* Slightly darker pastel blue on hover */
+}
+
+h2 {
+  color: #4a90e2; /* Pastel blue text for titles */
+}
+
+h3 {
+  color: #4f4f4f;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+li {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.config p {
+  font-size: 1.1em;
+  margin: 5px 0;
+  color: #555;
+}
+
+.config strong {
+  color: #4f4f4f;
+}
